@@ -6,3 +6,6 @@ CREATE TABLE animals (
   neutered BOOLEAN,
   weight_kg DECIMAL
 );
+
+-- Vet clinic database: query and update animals table
+ALTER TABLE animals ADD COLUMN species VARCHAR;
