@@ -10,15 +10,24 @@ SELECT * FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 -- Vet clinic database: query and update animals table
 BEGIN;
 UPDATE animals SET species='unspecified';
+SELECT * FROM animals;
 ROLLBACK;
+SELECT * FROM animals;
+
+BEGIN;
 UPDATE animals SET species='digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species='pokemon' WHERE name LIKE IS NULL;
 SELECT * FROM animals;
 COMMIT;
 SELECT * FROM animals;
+
 BEGIN;
 DELETE FROM animals;
+SELECT * FROM animals;
 ROLLBACK;
+SELECT * FROM animals;
+
+BEGIN;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
 SAVEPOINT sp1;
 UPDATE animals SET weight_kg = weight_kg * -1;
