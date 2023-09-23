@@ -68,3 +68,9 @@ owners.full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
 
 SELECT owners.full_name, COUNT(*) AS most_owner FROM owners JOIN animals ON 
 animals.owner_id = owners.id GROUP BY owners.full_name ORDER BY most_owner desc;
+
+-- made corrections as required by the code reviewer
+
+ALTER TABLE animals ALTER COLUMN name TYPE VARCHAR(255);
+ALTER TABLE owners ALTER COLUMN full_name TYPE VARCHAR(255);
+ALTER TABLE species ALTER COLUMN name TYPE VARCHAR(255);
