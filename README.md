@@ -83,7 +83,7 @@ Example commands:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭Features <a name="future-features"></a>
+## 🔭Future Features <a name="future-features"></a>
 
 - **[MORE QUERIES]**
 
