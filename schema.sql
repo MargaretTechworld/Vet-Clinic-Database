@@ -35,7 +35,8 @@ CREATE TABLE vets(
 id INT GENERATED ALWAYS AS IDENTITY,
 name VARCHAR(255),
 age INT,
-date_of_graduation DATE
+date_of_graduation DATE,
+PRIMARY KEY(id)
 );
 
 -- Vet clinic database: add 'join table' for visits
@@ -63,3 +64,10 @@ CONSTRAINT fk_vets
 FOREIGN KEY(vet_id)
 REFERENCES vets(id)
 );
+ 
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animal_id ON visits(animal_id ASC);
+CREATE INDEX vet_id ON visits(vet_id ASC);
+CREATE INDEX email_index ON owners(email ASC);
