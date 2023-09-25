@@ -33,13 +33,12 @@
 
 <!-- Features -->
 
+
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[CREATE-DATABSE]**
-- **[CREATE-TABLE]**
-- **[POPULATE-TABLE]**
+- **[Performance-Audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
