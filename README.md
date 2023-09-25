@@ -33,13 +33,10 @@
 
 <!-- Features -->
 
+
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[CREATE-DATABSE]**
-- **[CREATE-TABLE]**
-- **[POPULATE-TABLE]**
+- **[Performance-Audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,11 +73,17 @@ Example commands:
 - Twitter: [@twitterhandle](https://twitter.com/KojoMargaret)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-13a408147/)
 
+👤 **Bahati**
+
+- GitHub: [@githubhandle](https://github.com/zbahati)
+- Twitter: [@twitterhandle](https://twitter.com/zbahati)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zirimwabagabo-bahati/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭Features <a name="future-features"></a>
+## 🔭Future Features <a name="future-features"></a>
 
 - **[MORE QUERIES]**
 
