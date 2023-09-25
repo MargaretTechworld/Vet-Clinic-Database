@@ -76,6 +76,12 @@ Example commands:
 - Twitter: [@twitterhandle](https://twitter.com/KojoMargaret)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-13a408147/)
 
+👤 **Bahati**
+
+- GitHub: [@githubhandle](https://github.com/zbahati)
+- Twitter: [@twitterhandle](https://twitter.com/zbahati)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zirimwabagabo-bahati/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
